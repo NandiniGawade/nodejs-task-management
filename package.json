@@ -1,0 +1,47 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "Manage task of an employee",
+  "main": "server.js",
+  "types": "module",
+  "scripts": {
+    "start": "node -r esm server/server",
+    "test": "mocha -r esm server/test/test.server.js --timeout 10000000000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NandiniGawade/nodejs-task-management.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "express",
+    "mongodb",
+    "redis"
+  ],
+  "author": "Nandini Gawade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NandiniGawade/nodejs-task-management/issues"
+  },
+  "homepage": "https://github.com/NandiniGawade/nodejs-task-management#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.1.3",
+    "mongoose": "^6.1.0",
+    "nodemon": "2.0.14",
+    "radis": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-stage-0": "6.24.1"
+  }
+}
